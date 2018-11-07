@@ -1,0 +1,8 @@
+#qiime parameter file
+
+alpha_diversity:metrics observed_species,chao1,simpson,shannon 
+make_rarefaction_plots:std_type stddev
+make_rarefaction_plots:generate_average_tables True
+#make_rarefaction_plots:colorby SampleID,Diet,Drug,Description
+#multiple_rarefactions:min   1
+#multiple_rarefactions:max  25000
